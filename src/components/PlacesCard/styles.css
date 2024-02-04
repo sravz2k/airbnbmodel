@@ -1,0 +1,79 @@
+.card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1rem;
+    padding: 1rem 3rem;
+}
+
+.property{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card__more-places-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.card__show-more-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    border-radius: 1rem;
+    color: var(--white);
+    object-fit: contain;
+    padding: 0.8rem;
+    margin: 1rem 0rem;
+    left: 45%;
+    width: 10%;
+    position: relative;
+    cursor: pointer;
+}
+
+.property__hotel-img{
+    height: 275px;
+    width: 275px;
+    object-fit: cover;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.property__hotel-name-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.2rem;
+}
+
+.property__hotel-name{
+    font-weight: 500;
+}
+
+.property__rating{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:0.3rem;
+}
+
+.property__price-details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.property__price{
+    font-weight: 500;
+    padding-right: 0.2rem;
+}
